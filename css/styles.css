@@ -936,7 +936,7 @@ textarea {
   display: block;
   position: absolute;
   transform: translate(100%);
-  bottom: -1680px;
+  bottom: 100px;
 }
 
 .label-title {
