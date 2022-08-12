@@ -763,8 +763,8 @@ transform: translate(-50%,-50%);
   letter-spacing: 0.03em;
 
   color: #212121;
-
-  margin: 0;
+margin-bottom: 12px;
+  /* margin: 0; */
 }
 .modal-contact-imput {
   width: 100%;
@@ -830,7 +830,7 @@ textarea {
   padding-top: 10px;
 }
 
-.modal-contact-label:not(:last-child) {
+.modal-contact-label:not(:first-child) {
   display: block;
 }
 
@@ -848,8 +848,8 @@ textarea {
   width: 16px;
   height: 15px;
 
-  outline: 1px solid #212121;
-  outline-offset: -1px;
+  outline: 2px solid #212121;
+  outline-offset: -2px;
   border-radius: 2px;
   fill: none;
   transform: translate(5px, 4px);
@@ -858,8 +858,9 @@ textarea {
 }
 .checkbox-tumb {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
 }
 
 .checkbox {
@@ -929,14 +930,16 @@ textarea {
 }
 .modal-contact-group {
   position: relative;
+  margin-top: 10px;
+}
+
+.modal-contact-group:not(:last-child) {
+  margin-top: 10px;
 }
 
 /* footer form */
 .footer-label {
-  display: block;
-  position: absolute;
-  transform: translate(100%);
-  bottom: 100px;
+ margin-left: auto;
 }
 
 .label-title {
